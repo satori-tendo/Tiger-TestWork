@@ -1,9 +1,10 @@
 .header {
+    display: flex;
     width: 100%;
     background-color: #354052;
     color: #fff;
     &__container {
-        @include container(1832px, 2px);
+        @include container(1776px, 2px);
         align-items: center;
         min-height: 56px;
         display: flex;
@@ -20,4 +21,7 @@
         }
     }
 
+}
+.sidebar {
+    display: flex;
 }

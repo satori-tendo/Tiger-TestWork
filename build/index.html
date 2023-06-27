@@ -58,7 +58,7 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M13 5.0015C13 4.44921 12.5523 4.0015 12 4.0015C11.4477 4.0015 11 4.44921 11 5.0015V11.0015H5C4.44772 11.0015 4 11.4492 4 12.0015C4 12.5538 4.44772 13.0015 5 13.0015H11V19.0015C11 19.5538 11.4477 20.0015 12 20.0015C12.5523 20.0015 13 19.5538 13 19.0015V13.0015H19C19.5523 13.0015 20 12.5538 20 12.0015C20 11.4492 19.5523 11.0015 19 11.0015H13V5.0015Z" fill="white"/>
             </svg>
         </button>
-        <div class="menu">
+        <nav class="menu">
     <ul class="menu__list">
         <li class="menu__item"> 
             <a href="/" >Рабочий стол</a>
@@ -95,12 +95,15 @@
             </a>
         </li>
     </ul>
-</div>
+</nav>
 
     </div>
+    
 </header>
 
-	<div class="subheader">
+	
+	<main class="main">
+			<div class="subheader">
     <div class="subheader__container">
         <div class="subheader__1stPart">
             <!-- сделать переключатель -->
@@ -150,12 +153,138 @@
         </div>
     </div>
 </div>
-
-	<main class="main">
+			<div class="work-tasks">
+    <div class="work-tasks__container">
+        <div class="chart">
+    <div class="chart__color-line blue"></div>
+    <div class="chart__header header-chart">
+        <div class="header-chart__left-part">
+            <h5 class="chart__title">Распределение задач</h5>
+            <div class="header-chart__info info">
+                <span class="info__name">Задачи</span>
+                <span class="line">/</span>
+                <span class="info__interval">Неделя</span>
+                <span class="info__time-interval">08.01.22 - 15.01.22</span>
+            </div>
+        </div>
+        <button class="header__dots-button">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1441_22699)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M4.33334 10C4.33334 10.092 4.25872 10.1667 4.16668 10.1667C4.07463 10.1667 4.00001 10.092 4.00001 10C4.00001 9.90795 4.07463 9.83333 4.16668 9.83333C4.25872 9.83333 4.33334 9.90795 4.33334 10ZM4.16668 8.16667C3.15416 8.16667 2.33334 8.98748 2.33334 10C2.33334 11.0125 3.15416 11.8333 4.16668 11.8333C5.1792 11.8333 6.00001 11.0125 6.00001 10C6.00001 8.98748 5.1792 8.16667 4.16668 8.16667ZM10 10.1667C10.0921 10.1667 10.1667 10.092 10.1667 10C10.1667 9.90795 10.0921 9.83333 10 9.83333C9.90796 9.83333 9.83334 9.90795 9.83334 10C9.83334 10.092 9.90796 10.1667 10 10.1667ZM8.16668 10C8.16668 8.98748 8.98749 8.16667 10 8.16667C11.0125 8.16667 11.8333 8.98748 11.8333 10C11.8333 11.0125 11.0125 11.8333 10 11.8333C8.98749 11.8333 8.16668 11.0125 8.16668 10ZM15.8333 10.1667C15.9254 10.1667 16 10.092 16 10C16 9.90795 15.9254 9.83333 15.8333 9.83333C15.7413 9.83333 15.6667 9.90795 15.6667 10C15.6667 10.092 15.7413 10.1667 15.8333 10.1667ZM14 10C14 8.98748 14.8208 8.16667 15.8333 8.16667C16.8459 8.16667 17.6667 8.98748 17.6667 10C17.6667 11.0125 16.8459 11.8333 15.8333 11.8333C14.8208 11.8333 14 11.0125 14 10Z"
+                        fill="#516173" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_1441_22699">
+                        <rect width="20" height="20" rx="4" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </button>
+    </div>
+    <div id="chart__donut" class="graph">
+        
+    </div>
+    <div class="chart__footer">
+        <span>на 15 фев 11:26</span>
+        <div class="chart__buttons">
+            <button>
+                <div class="block --svg__reload-button"></div>
+            </button>
+            <button>
+                <div class="block --svg__stretch-button"></div>
+            </button>
+        </div>
+    </div>
+</div>
+        <div class="chart">
+    <div class="chart__color-line pink"></div>
+    <div class="chart__header header-chart">
+        <div class="header-chart__left-part">
+            <h5 class="chart__title">Воронка сделок</h5>
+            <div class="header-chart__info info">
+                <span class="info__name">Сделки</span>
+                <span class="line">/</span>
+                <span class="info__interval">Неделя</span>
+                <span class="info__time-interval">08.01.22 - 15.01.22</span>
+            </div>
+        </div>
+        <button class="header__dots-button">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1441_22699)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M4.33334 10C4.33334 10.092 4.25872 10.1667 4.16668 10.1667C4.07463 10.1667 4.00001 10.092 4.00001 10C4.00001 9.90795 4.07463 9.83333 4.16668 9.83333C4.25872 9.83333 4.33334 9.90795 4.33334 10ZM4.16668 8.16667C3.15416 8.16667 2.33334 8.98748 2.33334 10C2.33334 11.0125 3.15416 11.8333 4.16668 11.8333C5.1792 11.8333 6.00001 11.0125 6.00001 10C6.00001 8.98748 5.1792 8.16667 4.16668 8.16667ZM10 10.1667C10.0921 10.1667 10.1667 10.092 10.1667 10C10.1667 9.90795 10.0921 9.83333 10 9.83333C9.90796 9.83333 9.83334 9.90795 9.83334 10C9.83334 10.092 9.90796 10.1667 10 10.1667ZM8.16668 10C8.16668 8.98748 8.98749 8.16667 10 8.16667C11.0125 8.16667 11.8333 8.98748 11.8333 10C11.8333 11.0125 11.0125 11.8333 10 11.8333C8.98749 11.8333 8.16668 11.0125 8.16668 10ZM15.8333 10.1667C15.9254 10.1667 16 10.092 16 10C16 9.90795 15.9254 9.83333 15.8333 9.83333C15.7413 9.83333 15.6667 9.90795 15.6667 10C15.6667 10.092 15.7413 10.1667 15.8333 10.1667ZM14 10C14 8.98748 14.8208 8.16667 15.8333 8.16667C16.8459 8.16667 17.6667 8.98748 17.6667 10C17.6667 11.0125 16.8459 11.8333 15.8333 11.8333C14.8208 11.8333 14 11.0125 14 10Z"
+                        fill="#516173" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_1441_22699">
+                        <rect width="20" height="20" rx="4" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </button>
+    </div>
+    <div id="chart__funnel" class="graph">
+        
+    </div>
+    <div class="chart__footer">
+        <span>на 15 фев 11:26</span>
+        <div class="chart__buttons">
+            <button>
+                <div class="block --svg__reload-button"></div>
+            </button>
+            <button>
+                <div class="block --svg__stretch-button"></div>
+            </button>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+		<nav class="global-menu">
+			<ul class="global-menu__list">
+				<li class="global-menu__item">
+					<span>B</span>
+				</li>
+				<li class="global-menu__item">
+					<svg class="global-menu__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M6.66667 1.66662C5.69421 1.66662 4.76158 2.05293 4.07394 2.74056C3.38631 3.42819 3 4.36082 3 5.33328V26.6666C3 27.6391 3.38631 28.5717 4.07394 29.2593C4.76157 29.947 5.69421 30.3333 6.66667 30.3333H20C20.5523 30.3333 21 29.8856 21 29.3333C21 28.781 20.5523 28.3333 20 28.3333H6.66667C6.22464 28.3333 5.80072 28.1577 5.48815 27.8451C5.17559 27.5326 5 27.1086 5 26.6666V5.33328C5 4.89126 5.17559 4.46733 5.48816 4.15477C5.80072 3.84221 6.22464 3.66662 6.66667 3.66662H22.6667C23.5871 3.66662 24.3333 4.41281 24.3333 5.33328V5.80431C23.7366 5.97349 23.187 6.29289 22.7406 6.73927C22.053 7.4269 21.6667 8.35953 21.6667 9.33199V23.5542C21.6667 23.7355 21.7159 23.9133 21.8092 24.0687L24.4758 28.5132C24.6566 28.8144 24.9821 28.9987 25.3333 28.9987C25.6846 28.9987 26.0101 28.8144 26.1908 28.5132L28.8575 24.0687C28.9507 23.9133 29 23.7355 29 23.5542L29 9.33199C29 8.35953 28.6137 7.4269 27.9261 6.73927C27.4797 6.29289 26.9301 5.97349 26.3333 5.80431V5.33328C26.3333 3.30824 24.6917 1.66662 22.6667 1.66662H6.66667ZM25.2929 7.66581C25.3063 7.66635 25.3198 7.66662 25.3333 7.66662C25.3469 7.66662 25.3604 7.66635 25.3738 7.66581C25.8012 7.67618 26.2088 7.85047 26.5118 8.15348C26.8244 8.46604 27 8.88996 27 9.33199L27 23.2772L25.3333 26.055L23.6667 23.2772V9.33199C23.6667 8.88996 23.8423 8.46604 24.1548 8.15348C24.4578 7.85047 24.8655 7.67618 25.2929 7.66581ZM8.33333 18.6666C8.33333 18.1143 8.78105 17.6666 9.33333 17.6666H17.3333C17.8856 17.6666 18.3333 18.1143 18.3333 18.6666C18.3333 19.2189 17.8856 19.6666 17.3333 19.6666H9.33333C8.78105 19.6666 8.33333 19.2189 8.33333 18.6666ZM9.33333 12.332C8.78105 12.332 8.33333 12.7797 8.33333 13.332C8.33333 13.8843 8.78105 14.332 9.33333 14.332H12C12.5523 14.332 13 13.8843 13 13.332C13 12.7797 12.5523 12.332 12 12.332H9.33333ZM8.33333 7.99866C8.33333 7.44637 8.78105 6.99866 9.33333 6.99866H17.3333C17.8856 6.99866 18.3333 7.44637 18.3333 7.99866C18.3333 8.55094 17.8856 8.99866 17.3333 8.99866H9.33333C8.78105 8.99866 8.33333 8.55094 8.33333 7.99866ZM9.33333 23C8.78105 23 8.33333 23.4477 8.33333 24C8.33333 24.5522 8.78105 25 9.33333 25H14.6667C15.219 25 15.6667 24.5522 15.6667 24C15.6667 23.4477 15.219 23 14.6667 23H9.33333Z" fill="currentColor"/>
+					</svg>
+						
+					<hr>
+				</li>
+				<li class="global-menu__item">
+					<div class="global-menu__icon --svg__new-message"></div>
+					<hr>
+				</li>
+				<li class="global-menu__item">
+					<div class="global-menu__icon --svg__new-notification"></div>
+					<hr>
+				</li>
+				<li class="global-menu__item">
+					<div class="global-menu__icon --svg__clock-icon"></div>
+					<hr>
+				</li>
+				<li class="global-menu__item">
+					<div class="global-menu__icon --svg__book-icon"></div>
+					<hr>
+				</li>
+				<li class="global-menu__item">
+					<div class="global-menu__icon --svg__settings-icon-sidebar"></div>
+				</li>
+				<li class="global-menu__item global-menu__item--last">
+					<div class="global-menu__icon --svg__yellow-question"></div>
+				</li>
+			</ul>
+		</nav>
 	</main>
+
 	<footer class="footer"></footer>
 
-	<script src="js/libs.min.js"></script>
+	<script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-pyramid-funnel.min.js"></script>
+<script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-base.min.js" type="text/javascript"></script>
+<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 
 </body>

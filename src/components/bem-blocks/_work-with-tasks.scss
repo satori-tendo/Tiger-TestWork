@@ -1,0 +1,8 @@
+.work-tasks {
+    margin-top: 16px;
+    &__container {
+        @include container(1776px, 2px);
+        display: flex;
+        gap: 16px;
+    }
+}

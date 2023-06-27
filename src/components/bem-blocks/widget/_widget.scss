@@ -1,0 +1,85 @@
+.chart {
+    border-radius: 8px;
+    background-color: white;
+    width: 600px;
+    
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #DFE3E9;
+        padding: 14px 16px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &__main {
+        margin: 16px;
+    }
+
+    .info {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        &__name {
+            color: var(--dark-002, #516173);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        &__interval {
+            font-size: 14px;
+            font-weight: 500;
+            color: #354052;
+        }
+        &__time-interval {
+            font-size: 14px;
+            font-weight: 500;
+            color: #354052;
+        }
+    }
+    &__footer {
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid var(--light-004, #DFE3E9);
+        background: var(--grad-sec-001, linear-gradient(180deg, #EFF3F6 0%, #DFE3E9 100%));
+        box-shadow: 0px 2px 0px 0px #DFE3E9 inset;
+        span {
+            color: var(--dark-001, #7F8FA4);
+            font-size: 13px;
+            line-height: 120%;
+        }
+    }
+    &__buttons {
+        display: flex;
+        gap: 16px;
+        button {
+            div {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+.header-chart {
+    &__left-part {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+.graph {
+    width: 568px;
+    height: 464px;
+}
+.chart__color-line {
+    border-radius: 8px 8px 0px 0px;
+    height: 4px;
+    &.blue {
+        background-color: #3A9EFF;
+    }
+    &.pink {
+        background-color: #E91E63;
+    }
+    
+}
