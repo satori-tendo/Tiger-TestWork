@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    background-color: #354052;
+    color: #fff;
+    &__container {
+        @include container(1832px, 2px);
+        align-items: center;
+        min-height: 56px;
+        display: flex;
+    }
+    &__plusButton {
+        padding: 8px;
+        background-color: #1F8EFA;
+        border-radius: 50%;
+        margin: 0 24px;
+        svg {
+            display: block;
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+}

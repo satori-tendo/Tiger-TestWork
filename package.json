@@ -1,7 +1,7 @@
 {
-  "name": "easy-webdev-startpack",
-  "version": "3.1.1",
-  "description": "HTML5+CSS3 template for easy start website project'",
+  "name": "Tiger-TestWork",
+  "version": "1.0.0",
+  "description": "App for Tiger company",
   "main": "gulpfile.js",
   "scripts": {
     "html": "gulp",
@@ -45,5 +45,6 @@
   },
   "dependencies": {
     "sass": "^1.56.0"
-  }
+  },
+  "repository": "https://github.com/satori-tendo/Tiger-TestWork.git"
 }

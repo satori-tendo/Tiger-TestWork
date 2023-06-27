@@ -1,0 +1,15 @@
+.logo {
+    a {
+
+        text-decoration: none;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        gap: 7.5px;
+    }
+    &__title {
+        color: white;
+        font-size: 18px;
+    }
+}
