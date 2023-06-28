@@ -1,0 +1,46 @@
+.menu-more {
+
+    position: absolute;
+    top: 60px;
+    left: 650px;
+    display: none;
+    background-color: #fff;
+    padding: 8px 0px;
+    width: 198px;
+    height: 285px;
+    border-radius: 4px;
+    border: 1px solid var(--light-004, #DFE3E9);
+    box-shadow: 0px 5px 27px 0px rgba(27, 36, 49, 0.05), 0px 13px 20px 0px rgba(27, 36, 49, 0.15);
+    hr {
+        height: 1px;
+        border: 0;
+        background-color: #DFE3E9;
+        margin: 5px 0;
+    }
+    &__list {
+        margin-left: -40px;
+    }
+    &__item {
+        div {
+            @include bg('contain');
+            width: 16px;
+            height: 16px;
+        }
+        width: 196px;
+        padding: 10px 16px;
+        list-style-type: none;
+        color: #354052;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__item:last-child {
+        margin-top: 5px;
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+    &__item:hover {
+        background-color: #ECF6FF;
+        color: #1F8EFA;
+    }
+}

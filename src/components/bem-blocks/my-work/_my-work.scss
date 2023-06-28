@@ -1,0 +1,130 @@
+.my-work {
+    display: none;
+    width: 360px;
+    height: 940px;
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    right: 56px;
+    &__header {
+        padding: 18px 16px 0px 16px;
+        width: 100%;
+        background-color: #EFF3F6;
+        border-bottom: 2px solid #e4eff5;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+    &__cross-button {
+        cursor: pointer;
+    }
+    &__title {
+        color: #273142;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__menu {
+        margin-left: -40px;
+    }
+    &__list {
+        display: flex;
+        gap: 16px;
+        li {
+            list-style-type: none;
+            padding: 11px 4px;
+        }
+    }
+    &__current-item-menu {
+        color: #354052;
+        border-bottom: 2px solid #1F8EFA;
+    }
+    .my-work-header {
+        &__first-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__second-row {
+            color: #516173;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px 16px 0px 16px;
+    }
+    &__input {
+        height: 36px;
+        outline: none;
+        border: 1px solid #DFE3E9;
+        border-radius:5px;
+        padding: 8px;
+        color:#7F8FA4;
+        font-size: 14px;
+        line-height: 125%;
+    }
+    &__day {
+        position: relative;
+        color: #C2CAD4;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__day:after {
+        display: block;
+        width:250px;
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #DFE3E9;
+        left: 75px; 
+        bottom: 8px;
+    }
+    .work-item {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        padding: 16px 0px;
+        border-bottom: 1px solid #DFE3E9;
+        &__first-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            div {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &__status {
+            border-radius: 3px;
+            background: #ECF6FF;
+            padding: 2px 4px;
+            color:#1F8EFA;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        &__title {
+            color: #354052;
+            font-size: 14px;
+            font-weight: 500;
+            width: 203px;
+        }
+        &__arrows__icon {
+            padding: 2px;
+        }
+        &__second-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__meet-title {
+            color: #273142;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        &__meet-date {
+            color: #FF3031;
+            font-size: 12px;
+        }
+    }
+}
