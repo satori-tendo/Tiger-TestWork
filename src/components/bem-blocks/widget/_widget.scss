@@ -30,11 +30,15 @@
             font-size: 14px;
             font-weight: 500;
             color: #354052;
+            text-decoration: underline #3A9EFF;
+            cursor: pointer;
         }
         &__time-interval {
+            text-decoration: underline #3A9EFF;
             font-size: 14px;
             font-weight: 500;
             color: #354052;
+            cursor: pointer;
         }
     }
     &__footer {

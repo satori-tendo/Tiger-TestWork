@@ -1,0 +1,95 @@
+.help-user {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    width: 320px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 2px 0px 0px #DFE3E9 inset;
+    border-radius: 10px;
+    hr {
+        width: 270px;
+        border: none;
+        height: 1px;
+        background-color: #DFE3E9;
+    }
+    &__header {
+        padding: 18px 16px;
+        border-radius: 10px 10px 0px 0px;
+        background-color: #EFF3F6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        color:#273142;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+    }
+    &__subtitle {
+        color: #7F8FA4;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 115%;
+        letter-spacing: 0.24px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    &__item:hover {
+        cursor: pointer;
+        .help-user-item__icon {
+            color: #1F8EFA;
+        }
+        .help-user-item__title {
+            color: #1F8EFA;
+        }
+    }
+    .help-user-item {
+        color: #354052;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 115%;
+        &__icon {
+            color: #7F8FA4;
+        }
+    }
+    &__footer {
+        hr {
+            margin: 0em;
+        }
+        padding: 16px;
+    }
+    &__social {
+        display: flex;
+        gap: 8px;
+    }
+    &__social-icon {
+        padding: 8px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        &:first-child {
+            background-color: #0085F0;
+        }
+        &:nth-child(2) {
+            background-color: #E91E63;
+        }
+        &:nth-child(3) {
+            background-color: #3A9EFF;
+        }
+        &:nth-child(4) {
+            background-color: #FF3031;
+        }
+    }
+     
+}

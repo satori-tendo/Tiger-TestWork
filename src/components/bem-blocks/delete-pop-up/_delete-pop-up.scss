@@ -1,0 +1,48 @@
+.delete-pop-up {
+    display: none;
+    width: 448px;
+    height: 300px;
+    background-color: #fff;
+    padding: 24px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid rgb(89, 87, 87);
+    top: 35%;
+    left: 35%;
+    &__title {
+        color: #273142;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 16px;
+    }
+    &__subtitle {
+        color: #7F8FA4;
+        font-size: 14px;
+        line-height: 125%;
+        margin-top: 16px;
+    }
+    &__buttons {
+        
+        display: flex;
+        gap: 8px;
+        margin-top: 24px;
+        margin-left: 70px;
+        button:first-child {
+            padding: 12px;
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 115%;
+            letter-spacing: 0.28px;
+            border-radius: 4px;
+            background: #1F8EFA;
+        }
+        button:nth-child(2) {
+            border-radius: 4px;
+            border: 1px solid var(--light-004, #DFE3E9);           
+            padding: 12px; 
+            background-color: #DFE3E9;
+        }
+    }
+}

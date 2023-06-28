@@ -1,0 +1,18 @@
+.interval-menu {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    width: 88px;
+    height: 124px;
+    background-color: #fff;
+    padding: 8px 0px;
+    display: none;
+    &__item {
+        padding: 10px 0px 10px 16px;
+    }
+    &__item:hover {
+        cursor: pointer;
+        background-color: #ECF6FF;;
+        color: #1F8EFA;
+    }
+}
